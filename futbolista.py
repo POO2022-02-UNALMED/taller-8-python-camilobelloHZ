@@ -33,7 +33,7 @@ class Futbolista(Persona,Deportista):
 
     @classmethod
     def getListaFutbolista(clc):
-        return clc.listadoFutbolistas
+        return clc.listadoJugadores
 
     def setListaFutbolista(clc, listaFutbolistas):
         clc.listaFutbolistas = listaFutbolistas
