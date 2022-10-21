@@ -32,12 +32,12 @@ class Futbolista(Persona,Deportista):
         self._piernaHabil = piernaHabil
 
     @classmethod
-    def getListaFutbolista(clc):
-        return clc.listadoJugadores
-
     def setListaFutbolista(clc, listaFutbolistas):
         clc.listaFutbolistas = listaFutbolistas
-
+    
+    @classmethod
+    def getListaFutbolista(clc):
+        return clc.listadoJugadores
 
 
     def __str__(self):
