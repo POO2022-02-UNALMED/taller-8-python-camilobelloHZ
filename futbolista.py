@@ -10,6 +10,7 @@ class Futbolista(Persona,Deportista):
         self._golesMarcados = golesMarcados
         self._tarjetasRojas = tarjetasRojas
         self._piernaHabil = piernaHabil
+        
         Futbolista.listaFutbolistas.append(self)
 
     def getGolesMarcados(self):
@@ -32,7 +33,7 @@ class Futbolista(Persona,Deportista):
 
     @classmethod
     def getListaFutbolista(clc):
-        return clc.listatoFutbolistas
+        return clc.listadoFutbolistas
 
     def setListaFutbolista(clc, listaFutbolistas):
         clc.listaFutbolistas = listaFutbolistas
