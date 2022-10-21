@@ -1,4 +1,4 @@
-class deportista():
+class Deportista():
     def __init__(self, añosPracticando):
         self._deporte = "Futbol"
         self._añosPracticando = añosPracticando
