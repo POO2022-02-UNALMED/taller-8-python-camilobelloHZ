@@ -41,7 +41,7 @@ class Futbolista(Persona,Deportista):
     def setListaFutbolista(clc, listaFutbolistas):
         clc.listaFutbolistas = listaFutbolistas
 
-    @classmethod
+  
     def getListaFutbolista(clc):
         return clc.listatoFutbolistas
 
